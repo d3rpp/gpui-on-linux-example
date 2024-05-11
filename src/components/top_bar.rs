@@ -38,7 +38,7 @@ impl RenderOnce for TopBar {
 							cx.start_system_move()
 						}
 					})
-					.child(self.title.clone())
+					.child(self.title)
 					.child(spacer())
 			)
 			.child(
