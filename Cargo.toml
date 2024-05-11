@@ -1,0 +1,7 @@
+[package]
+name = "gpui_test_linux"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gpui = { git = "https://github.com/apricotbucket28/zed", branch = "wayland-csd-drag"}
